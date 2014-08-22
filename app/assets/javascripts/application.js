@@ -16,5 +16,5 @@
 //= require jquery.turbolinks
 //= require turbolinks
 //= require masonry/jquery.masonry
-
+//= require carousel
 //= require_tree .
