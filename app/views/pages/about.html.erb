@@ -1,5 +1,61 @@
-<h1>About me</h1>
-<%= image_tag("IMG_5478.jpg", alt: "IMG_5478", class: "img-rounded") %>
+<div id="myCarousel" class="carousel slide">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
 
-<p>I'm working on One Month Rails Pinteresting app!</p>
-<p>Please feel free to follow and join me :)</p>
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner">
+
+	    <div class="item active">
+
+		    	<img src=<%= asset_path('earth.jpg') %>/>
+		      <div class="carousel-caption">
+		      	<h4>“A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing.”</h4>
+		        <p>― George Bernard Shaw</p>	
+		      </div>
+	    </div>
+
+	    <div class="item">
+		    	<img src=<%= asset_path('mountain.jpg') %>/>
+		      <div class="carousel-caption">
+            <h4>“Life is like riding a bicycle. To keep your balance, you must keep moving.” </h4>
+		        <p>― Albert Einstein</p>
+		      </div>
+	    </div>
+	    <div class="item">
+		    	<img src=<%= asset_path('beach.png') %>/> 
+		      <div class="carousel-caption">
+            <h4>“Everything you can imagine is real.”</h4>
+		        <p>― Pablo Picasso</p>
+		      </div>
+	    </div>
+	    
+	  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+
+<div class="panel-heading center">
+   <h2>Please feel free to follow</h2>
+   <img src=<%= asset_path('Kate.jpg')%> alt="Kate.jpg" class="img-circle"/>
+</div>
+
+<div class="panel-heading center">
+	 <a href="http://instagram.com/myspecialspace" class="ig-b- ig-b-48"><img src="http://www.iconsdb.com/icons/preview/icon-sets/web-2-blue-2/instagram-l.png" alt="Instagram"></a>
+   	
+   <a href="https://www.facebook.com/ek.kuznetsova" class="ig-b- ig-b-48"><img src="http://www.iconsdb.com/icons/preview/icon-sets/web-2-blue-2/facebook-3-l.png" alt="Facebook"></a>
+</div>
+
+
+  
+
+
