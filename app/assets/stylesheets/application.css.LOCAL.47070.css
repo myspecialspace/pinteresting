@@ -10,9 +10,5 @@
  *
  *= require_self
  *= require 'masonry/transitions'
-<<<<<<< HEAD
-=======
- *= require carousel
->>>>>>> 169ca4743b04813552ee88163fc99b2afccd4648
  *= require_tree .
  */
